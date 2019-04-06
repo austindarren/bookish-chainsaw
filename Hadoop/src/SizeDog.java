@@ -32,6 +32,7 @@ public class SizeDog {
 		Size sq  = new Size();
 		sq.set1(6);
 		System.out.println(sq.get1());
+		
 
 	}
 
