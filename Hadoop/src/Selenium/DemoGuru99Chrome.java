@@ -14,6 +14,14 @@ public class DemoGuru99Chrome {
 		gc.printTitleOfThePage();
 		
 		gc.newCustomer();
+		
+		String customerId = gc.getCustomerId();
+		
+		System.out.println(customerId);
+		
+		//gc.addNewAccount(customerId);
+		
+		
 	}
 
 }

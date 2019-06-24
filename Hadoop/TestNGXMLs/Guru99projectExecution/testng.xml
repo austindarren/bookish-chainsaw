@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Guru99 Suite">
+  <test thread-count="5" name="Chrome Test">
+    <parameter name="userid" value="mngr188002"></parameter>
+        <parameter name="pass" value="hehYryr"></parameter>
+    
+    <classes>
+      <class name="TestNG.Guru99project"/>
+    </classes>
+  </test> <!-- Chrome Test -->
+</suite> <!-- Guru99 Suite -->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Guru99 Suite]">
+  <test thread-count="5" name="Chrome Test(failed)">
+    <parameter name="pass" value="hehYryr"/>
+    <parameter name="userid" value="mngr188002"/>
+    <classes>
+      <class name="TestNG.Guru99project">
+        <methods>
+          <include name="getPageTitle"/>
+          <include name="close"/>
+          <include name="invokeBrowser"/>
+          <include name="login" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestNG.Guru99project -->
+    </classes>
+  </test> <!-- Chrome Test(failed) -->
+</suite> <!-- Failed suite [Guru99 Suite] -->
